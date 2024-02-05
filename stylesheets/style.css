@@ -1,0 +1,51 @@
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333; 
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    color: #007bff; 
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor cinza escuro */
+}
+
+label {
+    display: block; /* Mostrar as etiquetas em uma linha separada */
+    margin-bottom: 5px; /* Adicionar espaço abaixo das etiquetas */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor cinza escuro */
+}
+
+input[type="text"] {
+    width: 100%; /* Ocupar toda a largura disponível */
+    padding: 8px; /* Adicionar espaço interno */
+    margin-bottom: 10px; /* Adicionar espaço abaixo dos campos */
+    border: 1px solid #ccc; /* Adicionar borda cinza */
+    border-radius: 5px; /* Adicionar cantos arredondados */
+    box-sizing: border-box; /* Incluir padding e borda na largura total */
+}
+
+.submit {
+    background-color: #ffc107; /* Cor amarela */
+    color: #333; /* Cor cinza escuro */
+    padding: 10px 20px; /* Adicionar espaço interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Adicionar cantos arredondados */
+    cursor: pointer; /* Mostrar o cursor de apontar */
+    font-family: Arial, sans-serif;
+}

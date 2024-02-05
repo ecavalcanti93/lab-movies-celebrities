@@ -1,8 +1,103 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+h1 {
+  font-family: Arial, sans-serif;
+  color: black; 
+}
+
+p {
+  font-family: Arial, sans-serif;
+  color: black;
 }
 
 a {
-  color: #00b7ff;
+  font-family: Arial, sans-serif;
+  color: black; 
+  text-decoration: none; 
+  margin-right: 10px; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+label {
+  display: block; /* Mostrar as etiquetas em uma linha separada */
+  margin-bottom: 5px; /* Adicionar espaço abaixo das etiquetas */
+  font-family: Arial, sans-serif;
+  color:black;
+}
+
+input[type="text"] {
+  width: 100%; /* Ocupar toda a largura disponível */
+  padding: 8px; /* Adicionar espaço interno */
+  margin-bottom: 10px; /* Adicionar espaço abaixo dos campos */
+  border: 1px solid #ccc; /* Adicionar borda cinza */
+  border-radius: 5px; /* Adicionar cantos arredondados */
+  box-sizing: border-box; /* Incluir padding e borda na largura total */
+}
+
+button[type="submit"] {
+  background-color: #ffc107; /* Cor amarela */
+  color: black;
+  padding: 10px 20px; /* Adicionar espaço interno */
+  border: none; /* Remover borda */
+  border-radius: 5px; /* Adicionar cantos arredondados */
+  cursor: pointer; /* Mostrar o cursor de apontar */
+  font-family: Arial, sans-serif;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #ffca28; 
+}
+
+
+hr {
+  border: none; /* Remover a borda padrão */
+  border-top: 2px solid #ccc; /* Adicionar uma linha cinza */
+  margin-bottom: 20px; 
+}
+
+.list {
+  font-family: Arial, sans-serif;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.menu-btn {
+  background-color: #ffc107; /* Cor de fundo amarela */
+  border: none; /* Remove a borda */
+  color: black; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remove sublinhado */
+  display: inline-block; /* Exibir como um bloco */
+  margin-bottom: 10px; /* Espaçamento abaixo dos botões */
+  cursor: pointer; /* Cursor de apontar */
+  border-radius: 5px; /* Cantos arredondados */
+  margin-right: 10px; /* Espaçamento à direita para separar os botões */
+}
+
+.edit-btn {
+  background-color: greenyellow; /* Cor de fundo amarela */
+  border: none; /* Remove a borda */
+  color: black; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remove sublinhado */
+  margin-top: 10px; /* Espaçamento abaixo dos botões */
+  margin-bottom: 10px; /* Espaçamento abaixo dos botões */
+  cursor: pointer; /* Cursor de apontar */
+  border-radius: 5px; /* Cantos arredondados */
+  margin-right: 10px; /* Espaçamento à direita para separar os botões */
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
